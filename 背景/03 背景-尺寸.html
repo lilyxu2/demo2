@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		div{
+			width: 200px;
+			height: 100px;
+			padding: 50px;
+			margin: 100px auto;
+			border: 10px dashed red;
+			background-color: yellow;
+			background-image: url(images/bg.jpg);
+			background-repeat: no-repeat;
+			/*background-clip: content-box;*/
+			/*改变背景大小，不裁剪，只缩小，可以给百分比或者像素*/
+			background-size: contain;
+			/*cover 会使最大的边进行缩放，铺满容器为止，另一个边同比缩放，超出了，则溢出*/
+			/*contain 会使最小的边进行缩放，铺满容器为止，另一个边同比缩放，不一定铺满容器*/
+			
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
